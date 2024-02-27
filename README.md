@@ -18,7 +18,7 @@ Entretanto, quando passado este conteúdo para um transformers, a rede não cons
 
 Este projeto que submeto como parte do curso AI900 da Microsoft foi criado com base nesta experiência.
 
-Neste projeto, temos um dataset de [textos com "enfeites"](https://github.com/JoaoLucasMoraisOrtiz/LSTM-ImageRecognition-AI-900/data/dataset.txt). O objetivo é reconhecer o texto que existe antes deste padrão de enfeite, dentro do padrão e depois do padrão, mas eliminando o padrão. Assim a resposta da rede deve ser um vetor com o mesmo tamanho do vetor de entrada com 0 nos caracteres que devem ser ignorados, e 1 nos caracteres que devem ser considerados.
+Neste projeto, temos um dataset de [textos com "enfeites"](https://github.com/JoaoLucasMoraisOrtiz/LSTM-TextRecognition/blob/main/data/dataset.txt). O objetivo é reconhecer o texto que existe antes deste padrão de enfeite, dentro do padrão e depois do padrão, mas eliminando o padrão. Assim a resposta da rede deve ser um vetor com o mesmo tamanho do vetor de entrada com 0 nos caracteres que devem ser ignorados, e 1 nos caracteres que devem ser considerados.
 Posteriormente podemos múltiplicar caractere por caractere do texto original e teremos apenas informações relevantes, e não o "enfeite".
 
 Este dataset não alcansou um bom nível de desempenho, tendo ficado entre 75%-80% de precisão.
